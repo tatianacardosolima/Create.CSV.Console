@@ -2,7 +2,7 @@
 // Caminho do arquivo a ser criado
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
-string empresa = "General Sul";
+string empresa = "XPTO";
 DateTime start_month = new DateTime(2024, 08, 01);
 DateTime end_month = new DateTime(2024, 08, 31);
 string filePath = $@"C:\_DEV\GitHubPortifolio\Create.CSV.Console\src\Create.CSV.Console\csv\{empresa}-{start_month:dd-MM-yyyy}.csv";
